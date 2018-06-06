@@ -1,0 +1,315 @@
+▾ ansible/
+  ▾ hosts/
+      inventory
+  ▾ roles/
+    ▾ cloudlet-gateway/
+      ▾ tasks/
+          main.yml
+      ▾ templates/
+          env-template.sh.j2
+          vpn.conf.j2
+      ▾ vars/
+          main.yml
+    ▾ cloudlet/
+      ▾ tasks/
+          main.yml
+      ▾ vars/
+          main.yml
+    ▾ openstack-common/tasks/
+        main.yml
+    ▾ openstack-compute/
+      ▾ defaults/
+          main.yml
+      ▾ handlers/
+          main.yml
+      ▾ tasks/
+          main.yml
+          neutron.yml
+          openstack-ext.yml
+      ▾ templates/
+          admin-openrc.sh.j2
+          linuxbridge_agent.ini.j2
+          ml2_conf.ini.j2
+          neutron.conf.j2
+          nova-compute.conf.j2
+          nova.conf.j2
+          openstack_if.cfg.j2
+      ▾ vars/
+          main.yml
+    ▾ openstack-controller/
+      ▾ defaults/
+          main.yml
+      ▾ files/
+          api-paste.ini
+          cloudlet_log.conf
+          policy.json
+          rootwrap.conf
+          wsgi-file
+          wsgi-keystone.conf
+      ▾ handlers/
+          main.yml
+      ▾ tasks/
+          elijah.yaml
+          glance.yml
+          heat.yml
+          horizon.yml
+          keystone.yml
+          main.yml
+          neutron.yml
+          nova.yml
+          openstack-ext.yml
+      ▾ templates/
+          admin-openrc.sh.j2
+          dhcp_agent.ini.j2
+          glance-api.conf.j2
+          glance-registry.conf.j2
+          glancedb.sql.j2
+          heat-domain.sh.j2
+          heat.conf.j2
+          heatdb.sql.j2
+          keystone.conf.j2
+          keystonedb.sql.j2
+          l3_agent.ini.j2
+          linuxbridge_agent.ini.j2
+          local_settings.py.j2
+          metadata_agent.ini
+          metadata_agent.ini.j2
+          ml2_conf.ini
+          ml2_conf.ini.j2
+          mysqld_openstack.cnf.j2
+          neutron.conf.j2
+          neutrondb.sql.j2
+          nova.conf.j2
+          novadb.sql.j2
+          openstack_if.cfg.j2
+      ▾ vars/                                                                                                          
+          main.yml
+    ansible.cfg
+    openstackpp.retry
+    openstackpp.yaml
+▾ api/
+    cloudlet.py
+    cloudlet_api.py
+▾ client/
+    .gitconfig
+    .gitignore
+    client_util.py
+    cloudlet_client.py*
+▾ cloudlet-gateway/
+  ▾ caas/
+    ▾ auth/
+        __init__.py
+        views.py
+    ▾ core/
+      ▾ machine/
+          __init__.py
+          helper.py
+          machine.py
+        __init__.py
+        cluster.py
+        dockerutils.py
+        exc.py
+        openstackutils.py
+        settings.py
+    ▾ customer/
+        __init__.py
+        models.py
+        views.py
+    ▾ provider/
+        __init__.py
+        api.py
+        forms.py
+        models.py
+        views.py
+    ▾ public/
+        __init__.py
+        forms.py
+        views.py
+    ▾ static/
+      ▾ css/
+          style.css
+      ▾ js/
+          plugins.js
+          script.js
+      ▾ public/
+        ▾ css/
+            .gitkeep
+        ▾ js/
+            .gitkeep
+          .gitkeep
+    ▾ templates/
+      ▾ providers/
+          members.html
+          services.html
+      ▾ public/
+          about.html
+          home.html
+          register.html
+        401.html
+        404.html
+        500.html
+        footer.html
+        layout.html
+        nav.html
+      __init__.py
+      app.py
+      assets.py
+      commands.py
+      compat.py
+      database.py
+      extensions.py
+      settings.py
+      utils.py
+  ▾ examples/
+    ▾ sample_config_files/
+        cooking-template.yaml*
+        draw-template.yaml*
+        faceswap-template.yaml*
+        gabriel-template.yaml*
+        ikea-template.yaml*
+        Makefile*
+        pingpong-template.yaml*
+        pool-template.yaml*
+        test-template.yaml*
+      container-lego.yml
+      docker-compose.yml
+      Dockerfile-gabriel
+      Dockerfile-lego
+      mixed-lego.yml
+      run.sh*
+      vm-lego.yml*
+  ▾ migrations/
+    ▾ versions/
+        2dffb08fef5f_.py
+        66d21032c506_.py
+      alembic.ini
+      env.py*
+      README*
+      script.py.mako*
+  ▾ requirements/
+      dev.txt
+  ▾ scripts/
+      create_cluster.sh*
+      lelproxy.py
+  ▾ tests/
+      __init__.py
+      conftest.py
+      context.py
+      factories.py
+      test_config.py
+      test_core.py
+      test_forms.py
+      test_functional.py
+      test_models.py
+      test_usermodels.py
+    .gitignore
+    autoapp.py*
+    bower.json
+    devs.txt
+    LICENSE
+    Procfile
+    README.md
+    requirements.txt
+    setup.cfg
+▾ compute/
+    cloudlet_driver.py
+    cloudlet_manager.py
+▾ dashboard/
+  ▾ images/
+      __init__.py
+      forms.py
+      tables.py
+  ▾ instances/
+      __init__.py
+      panel.py
+      tables.py
+      tabs.py
+      views.py
+  ▾ templates/cloudlet/
+    ▾ images/
+        _import.html
+        import.html
+    ▾ instance/
+        _handoff.html
+        _instance_ips.html
+        _resume_details_help.html
+        _synthesis_details_help.html
+        handoff.html
+        index.html
+        launch.html
+        resume.html
+        update.html
+      index.html
+  ▾ workflows/
+      __init__.py
+      create_instance.py
+      update_instance.py
+    __init__.py
+    cloudlet_api.py
+    forms.py
+    panel.py
+    urls.py
+    util.py
+    views.py
+▾ doc/
+  ▾ conf/
+    ▾ cinder/
+      ▾ rootwrap.d/
+          volume.filters
+        api-paste.ini
+        cinder.conf
+        logging.conf
+        policy.json
+        rootwrap.conf
+    ▾ compute-node/
+        nova.conf
+    ▾ glance/
+        glance-api-paste.ini
+        glance-api.conf
+        glance-cache.conf
+        glance-registry-paste.ini
+        glance-registry.conf
+        glance-scrubber.conf
+        policy.json
+    ▾ keystone/
+        default_catalog.templates
+        keystone.conf
+        logging.conf
+        policy.json
+    ▾ nova/
+        api-paste.ini
+        nova-compute.conf
+        nova.conf
+      interfaces
+      local.conf
+  ▾ screenshot-kilo/
+      1-cloudlet-dashboard-kilo.png
+      2-import-base.png
+      3-resume-base-done.png
+      3-resume-base.png
+      4-create-vm-overlay-1.png
+      4-create-vm-overlay-2.png
+      4-create-vm-overlay-done.png
+      4-create-vm-overlay.png
+      5-vm-synthesis-1.png
+      5-vm-synthesis-done.png
+      5-vm-synthesis.png
+      6-vmhandoff.png
+      auth_error.png
+  ▾ script/
+      db_init*
+      db_reset*
+      db_setup*
+      service_restart*
+    COMPUTE_NOTE.md
+    instruction-cloudlet-webinterface.docx
+    instruction-cloudlet-webinterface.pdf
+    openrc
+    README.md
+    TIPS.md
+  .gitignore
+  __init__.py
+  fabfile.py
+  LICENSE
+  README.md
+  svirt-profile 
