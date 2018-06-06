@@ -1,0 +1,36 @@
+https://github.com/cmusatyalab/elijah-openstack
+```
+
+master
+|
+├── ansible/
+│   ├── hosts/
+│   |   ├──
+│   |   ├──
+│   |   ├──
+│   |   ├──
+│   ├── roles/
+│   |   ├──cloudlet-gateway
+│   |   ├──cloudlet
+│   |   ├──openstack-common/tasks
+│   |   ├──openstack-compute
+│   |   └──openstack-controller
+│   ├── ansible.cfg   
+│   └── openstackpp.yaml
+├── api/
+|   ├── 
+|   ├── 
+|   ├── 
+|   └── 
+├── client
+|
+|
+|
+├── cloudlet
+├── compute
+├── dashboard
+├── doc
+|
+|    
+
+```
