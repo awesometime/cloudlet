@@ -1,6 +1,5 @@
 https://github.com/cmusatyalab/elijah-openstack
 ```
-
 master
 |
 ├── ansible/
@@ -32,5 +31,4 @@ master
 ├── doc
 |
 |    
-
 ```
