@@ -4,15 +4,18 @@
   
   FutureWarning: CTR mode needs counter parameter, not IV\n  self._cipher = factory.new(key, *args, **kwargs)\n\n
   Warning: sudo() received nonzero return code 4 while executing 'wget 
-  http://mirrors.kernel.org/ubuntu/pool/universe/x/xdelta3/python-xdelta3_3.0.0.dfsg-1build1_amd64.deb -O python-
-  xdelta3.deb'!\n\n\n
-  
+  ```
+  http://mirrors.kernel.org/ubuntu/pool/universe/x/xdelta3/python-xdelta3_3.0.0.dfsg-1build1_amd64.deb 
+  -O python-xdelta3.deb '!\n\n\n
+  ```
   Fatal error: Failed to download python-xdelta3.deb  \n\nAborting.", "stderr_lines": ["/usr/lib/python2.7/dist-
   packages/Crypto/Cipher/blockalgo.py:141: 
   
   FutureWarning: CTR mode needs counter parameter, not IV", "  self._cipher = factory.new(key, *args, **kwargs)", "", 
   "Warning: sudo() received nonzero return code 4 while executing 'wget 
-  http://mirrors.kernel.org/ubuntu/pool/universe/x/xdelta3/python-xdelta3_3.0.0.dfsg-1build1_amd64.deb -O python-xdelta3.deb'!", 
+  
+  http://mirrors.kernel.org/ubuntu/pool/universe/x/xdelta3/python-xdelta3_3.0.0.dfsg-1build1_amd64.deb 
+  -O python-xdelta3.deb'!", 
   
   "", "", 
   "Fatal error: Failed to download python-xdelta3.deb", "", "Aborting."], "stdout": "[localhost] Executing task 
@@ -37,7 +40,9 @@
   Resolving mirrors.kernel.org (mirrors.kernel.org)... 198.145.21.9, 2001:19d0:306:6:0:1994:3:14\n[localhost] out: Connecting to 
   mirrors.kernel.org (mirrors.kernel.org)|198.145.21.9|:80... connected.\n[localhost] out: HTTP request sent, awaiting 
   response... 301 Moved Permanently\n[localhost] out: 
+  
   Location: http://mirrors.edge.kernel.org/ubuntu/pool/universe/x/xdelta3/python-xdelta3_3.0.0.dfsg-1build1_amd64.deb 
+  
   [following]\n[localhost] out: --2018-06-06 19:48:44--  http://mirrors.edge.kernel.org/ubuntu/pool/universe/x/xdelta3/python-
   xdelta3_3.0.0.dfsg-1build1_amd64.deb\n[localhost] out: Resolving mirrors.edge.kernel.org (mirrors.edge.kernel.org)... 
   147.75.101.1, 2604:1380:2001:3900::1\n[localhost] out: Connecting to mirrors.edge.kernel.org 
