@@ -1,0 +1,413 @@
+▾ android/
+  ▾ android/
+    ▾ gen/edu/cmu/cs/cloudlet/android/
+        R.java
+    ▾ libs/
+        javassist.jar
+        jmdns-3.4.1.jar
+        msgpack-0.6.8-SNAPSHOT.jar
+    ▾ res/
+      ▾ drawable-hdpi/
+          ic_launcher.png
+      ▾ drawable-ldpi/
+          ic_launcher.png
+      ▾ drawable-mdpi/
+          ic_launcher.png
+      ▾ drawable-xhdpi/
+          ic_launcher.png
+      ▾ drawable-xxhdpi/
+          ic_launcher.png
+      ▾ layout/
+          camera.xml
+          custom_progress.xml
+          dialog_list_item.xml
+          filebrowser.xml
+          graphics.xml
+          graphics_main.xml
+          main.xml
+          main_reserach.xml
+          test_main.xml
+      ▾ values/
+          strings.xml
+      ▾ xml/
+          preferences.xml*
+    ▾ src/edu/cmu/cs/cloudlet/android/
+      ▾ application/
+        ▾ graphics/
+            GNetworkClient.java
+            GNetworkClientReceiver.java
+            GNetworkClientSender.java
+            GNetworkMessage.java
+            Graphics.java
+            GraphicsActivity.java
+            GraphicsClientActivity.java
+            Particle.java
+            PointRenderer.java
+            VisualizationStaticInfo.java
+          CloudletCameraActivity.java
+          NetworkClient.java
+          Preview.java
+          Utilities.java
+      ▾ data/
+          JSONHandleUtil.java
+          Measure.java
+          VMInfo.java
+      ▾ discovery/
+          AvahiDiscovery.java
+          CloudletDevice.java
+          CloudletDirectoryClient.java
+          CloudletDiscovery.java
+      ▾ lib/discovery/
+          CloudletDiscoveryAPI.java
+      ▾ network/
+          CloudletConnector.java
+          NetworkClientReceiver.java
+          NetworkClientSender.java
+          NetworkMsg.java
+          OpenStackClient.java
+      ▾ test/
+          BatchSynthesisTest.java
+      ▾ util/
+          CloudletEnv.java
+          Installation.java
+          KLog.java
+          MessagePackUtils.java
+          PreferenceSave.java
+          Preview.java
+        CloudletActivity.java
+      AndroidManifest.xml
+      default.properties
+      lint.xml
+      proguard.cfg
+      project.properties
+  ▾ android_ESVMRecogn/
+    ▾ libs/
+        android-support-v4.jar
+    ▾ res/
+      ▾ drawable-hdpi/
+          ic_launcher.png
+      ▾ drawable-mdpi/
+          ic_launcher.png
+      ▾ drawable-xhdpi/
+          ic_launcher.png
+      ▾ drawable-xxhdpi/
+          ic_launcher.png
+      ▾ layout/
+          activity_esvmrecogn.xml
+      ▾ menu/
+          activity_esvmrecogn.xml
+      ▾ values-v11/
+          styles.xml
+      ▾ values-v14/
+          styles.xml
+      ▾ values/
+          strings.xml
+          styles.xml
+    ▾ src/edu/cmu/cs/cloudlet/android/application/esvm/
+        ESVMRecognActivity.java
+        NetworkClient.java
+        Preview.java
+        Utilities.java
+      AndroidManifest.xml
+      ic_launcher-web.png
+      project.properties
+  ▾ android_ESVMTrainer/
+    ▾ libs/
+        android-support-v4.jar
+        httpmime-4.1.1.jar
+    ▾ res/
+      ▾ drawable-hdpi/
+          ic_launcher.png
+      ▾ drawable-mdpi/
+          ic_launcher.png
+      ▾ drawable-xhdpi/
+          ic_launcher.png
+      ▾ drawable-xxhdpi/
+          ic_launcher.png
+      ▾ drawable/
+          camera_crop_height.png
+          camera_crop_width.png
+          checkmark_done.png
+          indicator_autocrop.png
+      ▾ layout/
+          activity_annotation_main.xml
+          activity_cropimage.xml
+          activity_esvmtrain.xml
+      ▾ menu/
+          esvmtrain.xml
+      ▾ values-sw600dp/
+          dimens.xml
+      ▾ values-sw720dp-land/
+          dimens.xml
+      ▾ values-v11/
+          styles.xml
+      ▾ values-v14/
+          styles.xml
+      ▾ values/
+          dimens.xml
+          strings.xml
+          styles.xml
+    ▾ src/edu/cmu/cs/cloudlet/application/esvmtrainer/
+      ▾ cropimage/
+          BaseCancelable.java
+          BitmapManager.java
+          Cancelable.java
+          CropImage.java
+          HighlightView.java
+          IImage.java
+          IImageList.java
+          ImageViewTouchBase.java
+          LruCache.java
+          MonitoredActivity.java
+          RotateBitmap.java
+          Util.java
+      ▾ network/
+          ESVMNetworkClient.java
+      ▾ util/
+          AnnotatedImageDS.java
+          AnnotationDBHelper.java
+          FileDialog.java
+          ImageAdapter.java
+          ZipUtility.java
+        AnnotationActivity.java
+        ESVMTrainActivity.java
+        FrameExtractor.java
+      AndroidManifest.xml
+      ic_launcher-web.png
+      proguard-project.txt
+      project.properties
+  ▾ android_fluid/
+    ▾ lib/
+        cling-core-1.0.5.jar
+        httpmime-4.1.1.jar
+        teleal-common-1.0.13.jar
+    ▾ res/
+      ▾ drawable-hdpi/
+          ic_launcher.png
+      ▾ drawable-ldpi/
+          ic_launcher.png
+      ▾ drawable-mdpi/
+          ic_launcher.png
+      ▾ layout/
+          graphics.xml
+          graphics_main.xml
+      ▾ values/
+          strings.xml
+    ▾ src/edu/cmu/cs/cloudlet/android/application/graphics/
+        GNetworkClient.java
+        GNetworkClientReceiver.java
+        GNetworkClientSender.java
+        GNetworkMessage.java
+        Graphics.java
+        GraphicsActivity.java
+        GraphicsClientActivity.java
+        Particle.java
+        PointRenderer.java
+        VisualizationStaticInfo.java
+      AndroidManifest.xml
+      default.properties
+      lint.xml
+      proguard.cfg
+      project.properties
+▾ bin/
+    cloudlet*
+    handoff-proc*
+    handoff-server-proc*
+    stream-client*
+    stream-server*
+    synthesis_client* -> /root/elijah-provisioning/elijah/provisioning/synthesis_client.py
+    synthesis_server*
+▾ cloudletfs/
+  ▾ cloudletfs/
+      bitmap.c
+      cloudletfs-private.h
+      cloudletfs.c
+      cond.c
+      fuse-image.c
+      fuse-stats.c
+      fuse-stream.c
+      fuse.c
+      io.c
+      ll-modified.c
+      ll-pristine.c
+      stats.c
+      stream.c
+      util.c
+  ▾ m4/
+    configure.ac
+    LICENSE
+    Makefile.am
+    README.md
+▾ doc/
+    screenshot-synthesis-fail.png
+    screenshot-synthesis-success-htop.png
+    screenshot-synthesis-success.png
+▾ elijah/
+  ▾ provisioning/
+    ▾ config/
+        mode-profile.face
+        mode-profile.moped
+        ovftransport.iso
+        package.xsd
+        VM_config.json
+        VM_TEMPLATE.xml
+    ▾ db/
+        __init__.py
+        api.py
+        table_def.py
+    ▾ lib/
+      ▾ bin/
+        ▾ x86_64/
+            cloudlet_disk_analyzer*
+            cloudlet_free_page_scan*
+            cloudlet_vmnetfs*
+          upnp_server.jar
+      ▾ driver/
+          vmtest.ko
+      __init__.py
+      cloudletfs.py
+      compression.py
+      configuration.py
+      cython_xor.pyx
+      delta.py
+      disk.py
+      handoff.py
+      log.py
+      memory.py
+      memory_util.py
+      migration_profile.py
+      package.py
+      png.py
+      process_manager.py
+      progressbar.py
+      qmp_af_unix.py
+      server.py
+      stream_client.py
+      stream_server.py
+      synthesis.py
+      synthesis_client.py*
+      synthesis_protocol.py
+      tool.py
+  ▾ test/
+      __init__.py
+      test_base_VM.py
+      test_create_VM_overlay.py
+      test_handoff.py
+      test_synthesis.py
+      util.py
+    __init__.py
+▾ examples/gabriel-lego/
+    cloud.cfg
+    install_and_run.sh
+    README.md
+    vm.xml
+▾ heatmap/
+  ▾ css/
+      style.css
+  ▾ images/
+      button_grouphover.png
+      button_hover.png
+      button_pressed.png
+      button_rest.png
+      fullpage_grouphover.png
+      fullpage_hover.png
+      fullpage_pressed.png
+      fullpage_rest.png
+      home_grouphover.png
+      home_hover.png
+      home_pressed.png
+      home_rest.png
+      next_grouphover.png
+      next_hover.png
+      next_pressed.png
+      next_rest.png
+      previous_grouphover.png
+      previous_hover.png
+      previous_pressed.png
+      previous_rest.png
+      rotateleft_grouphover.png
+      rotateleft_hover.png
+      rotateleft_pressed.png
+      rotateleft_rest.png
+      rotateright_grouphover.png
+      rotateright_hover.png
+      rotateright_pressed.png
+      rotateright_rest.png
+      zoomin_grouphover.png
+      zoomin_hover.png
+      zoomin_pressed.png
+      zoomin_rest.png
+      zoomout_grouphover.png
+      zoomout_hover.png
+      zoomout_pressed.png
+      zoomout_rest.png
+    changelog.txt
+    index.html
+    LICENSE.txt
+    openseadragon.js
+    openseadragon.js.map
+    openseadragon.min.js
+    openseadragon.min.js.map
+    overlay.png
+▾ test/
+  ▾ app-client/
+    ▾ batch_files/
+      ▾ input/
+        ▾ esvm/
+            1.jpg
+        ▾ face/
+            recogn_face_0001.jpg
+        ▾ graphics/
+            acc_input_1sec
+        ▾ mar/
+            qimg0001.JPG
+        ▾ moped/
+            test_image.jpg
+        ▾ speech/
+            PDAm01_001_5.wav
+        __init__.py
+        batch_client.py*
+        cloudlet_client.py*
+        FPV_client.py*
+        rapid_app.py*
+        README
+        remote_install.py*
+        run_application.py*
+    ▾ scripts/
+        acc_input_10min
+        acc_input_50sec
+        auto_measurement.py*
+        data_to_cdf.py*
+        esvm_client.py*
+        face_client.py*
+        graphics_client.py*
+        mar_client.py*
+        moped_client.py*
+  ▾ fluid-bin32/
+      CREDITS.md
+      README.md
+  ▾ handoff-profiling/
+      dynamic-cpu-exhaustive.py*
+      dynamic-cpu-test.py*
+      dynamic-network-exhaustive.py*
+      dynamic-network-test.py*
+      exhaustive-test.py*
+      network-test.py*
+      parsing.py*
+      profile_stage.py*
+      traffic_shaping*
+  ▾ misc/
+      ec2_rapid.py*
+  ▾ openstack/subprocess/
+      handoff-dest.py*
+  CHANGES.md
+  CREDITS
+  fabfile.py
+  fabfile.pyc
+  LICENSE
+  MANIFEST.in
+  NOTICE
+  python-xdelta3.deb
+  README.md
+  requirements.txt
+  setup.py                 
