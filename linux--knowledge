@@ -1,0 +1,12 @@
+## 一、查看文件安装路径
+
+whereis mysql
+ 
+mysql: /usr/bin/mysql /usr/lib/mysql /usr/share/mysql /usr/share/man/man1/mysql.1.gz
+
+
+## 二、查询运行文件所在路径(文件夹地址)
+
+which mysql
+
+/usr/bin/mysql
