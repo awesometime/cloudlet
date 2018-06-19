@@ -1,3 +1,4 @@
+```
 ▾ ansible/
   ▾ hosts/
       inventory
@@ -87,14 +88,20 @@
     ansible.cfg
     openstackpp.retry
     openstackpp.yaml
+```
+```
 ▾ api/
     cloudlet.py
     cloudlet_api.py
+```
+```
 ▾ client/
     .gitconfig
     .gitignore
     client_util.py
     cloudlet_client.py*
+```
+```
 ▾ cloudlet-gateway/
   ▾ caas/
     ▾ auth/
@@ -211,9 +218,13 @@
     README.md
     requirements.txt
     setup.cfg
+```
+```
 ▾ compute/
     cloudlet_driver.py
     cloudlet_manager.py
+```
+```
 ▾ dashboard/
   ▾ images/
       __init__.py
@@ -251,6 +262,8 @@
     urls.py
     util.py
     views.py
+```
+```
 ▾ doc/
   ▾ conf/
     ▾ cinder/
@@ -307,6 +320,7 @@
     openrc
     README.md
     TIPS.md
+  ```
   .gitignore
   __init__.py
   fabfile.py
